@@ -8,7 +8,7 @@ function App() {
 
   const addUserHandler = (uName, uAge) => {
     setUsersList((prevUsersList) => {
-      return [...prevUsersList, { uName, uAge }];
+      return [...prevUsersList, { name: uName, age: uAge }];
     });
   };
   return (
